@@ -1,0 +1,77 @@
+/* Background setup */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: url('https://www.workitdaily.com/media-library/happy-students-in-a-perfect-classroom.jpg?id=34674769&width=1245&height=700&quality=50&coordinates=0%2C15%2C0%2C0') no-repeat center center/cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Login box styling */
+.login-box {
+  background: white;
+  padding: 40px;
+  width: 350px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0px 5px 20px rgba(0,0,0,0.3);
+}
+
+/* Logo */
+.login-box img {
+  width: 50px;
+  margin-bottom: 10px;
+}
+
+/* Heading */
+.login-box h2 {
+  margin: 10px 0 20px;
+  font-weight: bold;
+  font-style: italic;
+}
+
+/* Input fields */
+.login-box input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #aaa;
+  border-radius: 20px;
+  outline: none;
+  font-size: 14px;
+  font-style: oblique;
+}
+
+/* Login button */
+.login-box button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 15px;
+  background: #6a5acd;
+  border: none;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.login-box button:hover {
+  background: #5848c2;
+}
+
+/* Register link */
+.login-box p {
+  margin-top: 15px;
+  font-size: 14px;
+  color:black;
+}
+
+.login-box p a {
+  color: #6a5acd;
+  text-decoration: none;
+  font-weight: bold;
+}
